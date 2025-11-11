@@ -1,0 +1,15 @@
+# This action commands the robot arm to move its end-effector to a specific pose in the robot's base frame. 
+
+# Goal The target pose for the end-effector
+geometry_msgs/PoseStamped target_pose
+string planning_group_name
+float32 timeout
+
+---
+# Result Final status of the motion
+bool success
+string message
+
+---
+# Feedback: Current status and progress
+geometry_msgs/PoseStamped current_pose
