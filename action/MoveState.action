@@ -1,0 +1,12 @@
+# Action for the titration robot to motion plan "ur_arm" to a group state by SRDF (world frame). 
+
+# Goal: 
+string group_state
+
+---
+# Result:
+bool outcome
+
+---
+# Feedback:
+geometry_msgs/Pose current_pose
