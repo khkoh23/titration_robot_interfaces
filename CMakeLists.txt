@@ -13,6 +13,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/MovePose.action" 
   "action/MoveState.action"
   "srv/Pipette.srv" 
+  "srv/DeltaPh.srv" 
   DEPENDENCIES geometry_msgs
 )
 
