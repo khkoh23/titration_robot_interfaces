@@ -7,6 +7,7 @@
 # 9: Dispense (Default: 20uL)
 # 91: Set dispense volume (Default: 200)
 # 123: Enquire holding_volume
+# 124: Is to replenish pipette?
 int8 command
 uint16 aspire_volume
 uint16 dispense_volume
@@ -14,3 +15,4 @@ uint16 dispense_volume
 # Response 
 # The remaining volume UOM is 0.1uL
 int16 holding_volume 
+bool to_replenish
