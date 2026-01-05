@@ -12,9 +12,10 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/MovePose.action" 
   "action/MoveState.action"
-  "srv/Pipette.srv" 
   "srv/DeltaPh.srv" 
   "srv/DerivativePhVolume.srv"
+  "srv/Pipette.srv" 
+  "srv/Syringe.srv" 
   DEPENDENCIES geometry_msgs
 )
 
